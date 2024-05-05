@@ -1,0 +1,54 @@
+@import './normalize.scss';
+@import './media.scss';
+@import './utils.scss';
+@import './variables.scss';
+@import './fonts.scss';
+
+:root {
+  font-size: 14px;
+
+  @include respond-to('xl') {
+    font-size: 16px;
+  }
+  --font-sans: 'Helvetica NT', -apple-system, sans-serif;
+  --font-mono: 'Fraktion Mono', monospace;
+  --white: #fff;
+  --black: #000;
+  --main-color: #ffffff;
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+html {
+  font-family: var(--font-sans);
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: var(--font-sans);
+}
+
+button {
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+// .page-enter-active,
+// .page-leave-active {
+//   transition: all 0.25s ease;
+// }
+// .page-enter-from {
+//   opacity: 0;
+//   transform: translateY(4px);
+
+// }
+// .page-leave-to {
+//   opacity: 0;
+//   transform: translateY(-4px);
+// }

@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@sanity/types": "^3.20.0",
+    "@types/node": "^18.17.14",
+    "nuxt": "^3.10.3",
+    "postcss": "^8.4.31",
+    "postcss-nested": "^6.0.1",
+    "sass": "^1.72.0",
+    "vue-masonry-css": "^1.0.3"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.4.0",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@nuxtjs/sanity": "^1.10.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@portabletext/vue": "^1.0.7",
+    "@sanity/image-url": "^1.0.2",
+    "@vueuse/nuxt": "^10.9.0",
+    "@yeger/vue-masonry-wall": "^5.0.8",
+    "groq": "^3.9.1",
+    "gsap": "^3.12.5",
+    "keen-slider": "^6.8.6"
+  }
+}
